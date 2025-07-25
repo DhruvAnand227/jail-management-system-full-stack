@@ -107,7 +107,7 @@ const PrisonerPage = () => {
                             )}
 
                             {filterType === "crime" && (
-                                <input onChange={(e) => setCrimeType(e.target.value)} value={crimeType} type="text" placeholder='Enter crime type' className='bg-white px-5 py-2 rounded-4xl' />
+                                <input onChange={(e) => setCrimeType(e.target.value)} value={crimeType} type="text" placeholder='Enter crime type(without whitespaces)' className='bg-white px-5 py-2 rounded-4xl' />
                             )}
 
                             {filterType === "visitor" && (
