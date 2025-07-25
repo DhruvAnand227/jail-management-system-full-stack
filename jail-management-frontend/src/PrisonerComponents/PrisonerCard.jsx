@@ -14,7 +14,6 @@ const PrisonerCard = (props) => {
             .catch((err) => {
                 console.error("Failed to fetch prisonerData:", err);
             });
-        setRender("Deleted");
     }
 
     function handleUpdate() {
