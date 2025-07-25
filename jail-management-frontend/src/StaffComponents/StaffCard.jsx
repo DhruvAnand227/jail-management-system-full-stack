@@ -13,7 +13,7 @@ const StaffCard = (props) => {
             .catch((err) => {
                 console.error("Failed to fetch staffData:", err);
             });
-        setRender("Deleted");
+        
     }
 
     function handleUpdate() {
