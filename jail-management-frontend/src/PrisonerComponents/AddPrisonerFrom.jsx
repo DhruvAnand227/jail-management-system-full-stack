@@ -104,7 +104,7 @@ function PrisonerAddForm() {
                     <input
                         type="text"
                         {...register('Crime', { required: true })}
-                        placeholder="Enter crime..."
+                        placeholder="Enter crime(without whitespaces)..."
                         className="mt-1 block w-full rounded-lg border-gray-300 shadow-sm focus:border-amber-500 focus:ring-amber-500"
                     />
                     {errors.Crime && <p className="text-red-500 text-sm mt-1">Crime is required.</p>}
